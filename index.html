@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>SS26 Forecast: 10 Key Fashion Trends | ArishaModeFashion x Aman Kumar</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fefcfa;
+            color: #1a1a1a;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: #1e1e2a;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem 0;
+            letter-spacing: -0.01em;
+            border-left: 5px solid #d4af7a;
+            padding-left: 1.2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #2c2c2c;
+        }
+
+        .section-subhead {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #b48c48;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .trend-number {
+            display: inline-block;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            color: #e2d5c0;
+            margin-right: 0.75rem;
+            line-height: 1;
+            vertical-align: middle;
+        }
+
+        .trend-title {
+            display: inline-flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .stat-badge {
+            background: #f3ede5;
+            padding: 0.2rem 0.7rem;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: inline-block;
+            margin: 0.25rem 0;
+            color: #7a5a3a;
+        }
+
+        .grid-2cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .callout {
+            background: #f8f3ea;
+            border-left: 6px solid #d4af7a;
+            padding: 1.8rem;
+            border-radius: 20px;
+            margin: 2rem 0;
+            font-size: 1rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.02);
+        }
+
+        .image-card {
+            background: #fff;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+        }
+
+        .image-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .image-card:hover img {
+            transform: scale(1.02);
+        }
+
+        .img-caption {
+            font-size: 0.75rem;
+            color: #6f6f6f;
+            padding: 0.6rem 1rem;
+            background: #fefcf9;
+            border-top: 1px solid #eee;
+            letter-spacing: 0.3px;
+        }
+
+        .brand-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .brand-tag {
+            background: white;
+            border: 1px solid #e2d5c0;
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #5f4a2e;
+        }
+
+        hr {
+            margin: 2.5rem 0;
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, #e6dbcf, transparent);
+        }
+
+        footer {
+            background: #1e1e2a;
+            color: #cdcdd4;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            border-radius: 32px 32px 0 0;
+        }
+
+        .footer-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.2rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            .grid-2cols {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .trend-number {
+                font-size: 2.2rem;
+            }
+        }
+
+        .stat-highlight {
+            background: #fff5e8;
+            padding: 0.15rem 0.4rem;
+            border-radius: 12px;
+            font-weight: 700;
+            color: #bc8740;
+        }
+
+        .two-img-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .trend-block {
+            margin: 2.2rem 0 1.5rem 0;
+        }
+
+        .flex-inline-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin: 1rem 0;
+        }
+
+        /* new author area with channel name + writer photo */
+        .author-channel-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            background: #fff9f0;
+            padding: 0.8rem 1.5rem;
+            border-radius: 60px;
+            margin-bottom: 1.8rem;
+            border: 1px solid #f0e2ce;
+        }
+        .channel-info {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            flex-wrap: wrap;
+        }
+        .channel-badge {
+            background: #1e1e2a;
+            color: #e2c7a3;
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .channel-badge i {
+            margin-right: 6px;
+        }
+        .writer-with-photo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: #ffffffd9;
+            padding: 0.2rem 1rem 0.2rem 0.5rem;
+            border-radius: 50px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+        .writer-photo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #d4af7a;
+            background: #f3ede5;
+        }
+        .writer-name {
+            font-weight: 700;
+            color: #b47c44;
+            font-size: 1rem;
+        }
+        .datetime-modern {
+            font-family: monospace;
+            background: #f2ede4;
+            padding: 0.3rem 1.2rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        @media (max-width: 600px) {
+            .author-channel-row {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .writer-with-photo {
+                padding-right: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- NEW AUTHOR SECTION: ArishaModeFashion as Channel Name + Writer Aman Kumar with Photo -->
+    <div class="author-channel-row">
+        <div class="channel-info">
+            <span class="channel-badge"><i class="fas fa-tv"></i> ArishaModeFashion</span>
+            <div class="writer-with-photo">
+                <img class="writer-photo" src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777464875/57b3c985-6692-4127-9f35-fe10a0ac492b_yodpaf.jpg" alt="Aman Kumar photo">
+                <span class="writer-name"><i class="fas fa-feather-alt"></i> By Aman Kumar </span>
+            </div>
+        </div>
+        <div class="datetime-modern" id="liveDateTime">
+            <i class="fas fa-clock"></i> <span id="dateTimeText">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div style="margin-bottom: 1rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; border-bottom: 1px solid #eee; padding-bottom: 1rem;">
+            <span style="font-weight: 500; letter-spacing: 1px;">🔮 TREND FORECAST SS26</span>
+            <span style="font-size: 0.8rem; background: #f0ebe3; padding: 5px 12px; border-radius: 40px;">AMF AI + Runway analysis</span>
+        </div>
+        <h1 style="margin-top: 1.5rem;">Spring/Summer 2026:<br>10 Major Fashion Trend Forecasts </h1>
+        <p style="font-size: 1.1rem; color: #3a3a3a; max-width: 85%; margin-bottom: 1.5rem;">Data-driven insights from ArishaModeFashin, fashion analyst perspectives, and SS26 runway inspiration — defining the future of apparel.</p>
+    </div>
+
+    <!-- AI Callout Box (page 2 style) -->
+    <div class="callout">
+        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center;">
+            <div style="flex: 2;">
+                <div class="section-subhead"><i class="fas fa-robot"></i> AI-POWERED FORECASTING</div>
+                <h3 style="margin-top: 0;">Discover ArishaModeFashion's methodology</h3>
+                <p>ArishaModeFashion harnesses advanced machine learning algorithms to analyze billions of social media visuals in real time. By detecting micro-shifts in consumer behavior and combining quantitative data with qualitative fashion expertise, we deliver accurate, actionable trend forecasts. From emerging prints to silhouette evolutions, our approach bridges runway aesthetics and market reality.</p>
+            </div>
+            <div style="flex: 1; text-align: center; background: #ffffffd9; border-radius: 30px; padding: 1rem;">
+                <i class="fas fa-chart-line" style="font-size: 2.5rem; color: #b48c48;"></i>
+                <p style="font-size: 0.8rem; margin-top: 8px;">+200% growth in denim visibility on SS26 runways</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 1: DOTS ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">1</span>
+            <h2 style="display: inline-block; margin: 0;">Dots·Dots·Dots</h2>
+        </div>
+        <p style="margin-top: 0.5rem;"><strong>Small dots, big dots, dotted everything.</strong> Playful yet sophisticated, retro yet minimal. Big Dots expected visibility: <span class="stat-highlight">+55% EU</span> and <span class="stat-highlight">+33% US</span> (SS26 vs prior year). Among women in EU, Big Dot Dresses skyrocket +80%, dotted skirts +47% — especially midi lengths.</p>
+        <div class="grid-2cols">
+            <div>
+                <div class="image-card">
+                    <img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743182/IMG_9612_cr4jh7.png" alt="Polka dot dress runway style">
+                    <div class="img-caption">1. CARO EDITION / 2-6. INSTAGRAM | Runway: Altuzarra, Khaite, Nina Ricci, Junya Watanabe, MM6, Jean Paul Gaultier</div>
+                </div>
+            </div>
+            <div>
+                <p><i class="fas fa-chart-simple"></i> <strong>Key forecast:</strong> Dotted midi dresses and skirts lead the lady-like silhouette. Designers from Altuzarra to Jean Paul Gaultier embraced polka variations. The print balances whimsy and minimalism, dominating both Europe and America.</p>
+                <div class="brand-list">
+                    <span class="brand-tag">Altuzarra</span><span class="brand-tag">Khaite</span><span class="brand-tag">Nina Ricci</span><span class="brand-tag">Junya Watanabe</span><span class="brand-tag">MM6</span><span class="brand-tag">Jean Paul Gaultier</span>
+                </div>
+                <div class="stat-badge"><i class="far fa-calendar-alt"></i> SS26 Fashion Week impact: major dots revival</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 2: BRUT DENIM ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">2</span>
+            <h2 style="display: inline-block; margin: 0;">Raw Authenticity in Brut Denim</h2>
+        </div>
+        <p><strong>Unwashed, untreated, pure stiff cotton.</strong> No distressing, no fades — authentic raw denim. Head-to-toe matching denim looks (baggy jeans + jacket) surge globally. Fitted denim jacket (+5% EU) paired with flared bootcut jeans (+2% EU) gains traction.</p>
+        <div class="grid-2cols">
+            <div class="two-img-stack">
+                <div class="image-card">
+                    <img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743178/IMG_9613_sog7vl.webp" alt="Raw denim jacket and jeans">
+                    <div class="img-caption">1. EGONLAB / 2. GIVENCHY — raw denim on baggy jeans + matching jacket</div>
+                </div>
+            </div>
+            <div>
+                <p><span class="stat-highlight">Worldwide forecasts:</span> Brut denim visibility +6% women / +3% men. <strong>+200% growth on runway</strong> (SS26 vs SS25). Casablanca, Givenchy, Dior, Zimmerman all featured raw denim collections. The "rising star" among edgy consumers.</p>
+                <p>Heuritech’s Trend Calendar combines data-driven insights to help designers anticipate key 2026 trends month by month.</p>
+                <div class="brand-list"><span class="brand-tag">Casablanca</span><span class="brand-tag">Givenchy</span><span class="brand-tag">Dior</span><span class="brand-tag">Zimmerman</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 3: ROMANTIC FABRICS ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">3</span>
+            <h2 style="display: inline-block; margin: 0;">Romantic Fabrics</h2>
+        </div>
+        <p>Lace maxi skirts, satin trims, flowy lace pants, lace stockings — feminine silhouettes dominate. Lace skirts forecast: <span class="stat-highlight">+20% EU</span>, <span class="stat-highlight">+13% US</span>. Fine lace (+10%) and see-through textures (+5%) emerge for SS26.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743607/IMG_9619_qpqbkr.webp" alt="Romantic lace midi skirt"><div class="img-caption">Lace skirt + oversized pullover in vanilla yellow — delicate meets casual</div></div></div>
+            <div><p>Style tip: Pair midi lace skirts with oversized tees or modern pastel sweaters. The aesthetic balances subtle sensuality and relaxed elegance, crucial for SS26 wardrobes.</p><div class="stat-badge">Trending: sheer layering, feminine silhouettes</div></div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 4: VARIATIONS OF CHECKED ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">4</span>
+            <h2 style="display: inline-block; margin: 0;">Variations of Checked</h2>
+        </div>
+        <p>Checked prints break seasonal boundaries — gingham (+17% men EU, +31% women EU, +22% women US). Prince of Wales checks (+19% EU women), Windowpane checks (+13% EU women) thrive on midi skirts, thin fitted jackets, and even swimwear.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743897/IMG_9620_tplczy.webp" alt="Gingham and check patterns"><div class="img-caption">Gingham dresses, short-sleeve shirts, boxers — seasonal dressing is fading</div></div></div>
+            <div><p>From picnic-ready gingham to Prince of Wales tailoring, checked variations bring versatility. Layering, midi lengths, and thinner blazers amplify the aesthetic in city looks.</p><div class="flex-inline-stats"><span class="stat-badge">📈 Gingham US women +22%</span><span class="stat-badge">👔 Prince of Wales +19%</span></div></div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 5: MOCCASINS ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">5</span>
+            <h2 style="display: inline-block; margin: 0;">Slipping into Moccasins</h2>
+        </div>
+        <p>Loafers, boat shoes, moccasins — steady edgy staple. Miu Miu’s boat loafers, Chloé & Isabel Marant’s bohemian influence. Moccasins grew +40% among women (summer 2025) and remain stable in 2026. Men’s uptake +7% EU.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743180/IMG_9614_xqarno.webp" alt="Suede moccasins and loafers"><div class="img-caption">1. GIMAGUAS / 2. MORJAS / 3-4. MASSIMO DUTTI — bohemian-driven growth</div></div></div>
+            <div><p>This footwear trend bridges urban ease and heritage detailing. Suede finishes and fringe details lead, perfect for SS26 trans-seasonal styling.</p><div class="stat-badge">🇪🇺 Men +7% | Women stable high visibility</div></div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 6: ALTERNATIVE ANIMAL PRINTS ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">6</span>
+            <h2 style="display: inline-block; margin: 0;">Alternative Animal Prints</h2>
+        </div>
+        <p>Zebra stripes leap +21% EU / +17% US (age 26-35 leading). Zebra print dresses +25% growth across regions. Snake & crocodile prints +22% EU. Cow print emerges as IT-print in US: <span class="stat-highlight">+87%</span> during SS26.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743179/IMG_9615_oqn8bx.webp" alt="Zebra print dress runway"><div class="img-caption">Brandon Maxwell SS26 | Diane Von Furstenberg SS26 runway</div></div></div>
+            <div><p>Leopard steps aside; zebra and Dalmatian-inspired dots take center stage. Cow print gains massive momentum in the US. Dresses remain the canvas of choice for bold wildlife prints.</p><div class="brand-list"><span class="brand-tag">Brandon Maxwell</span><span class="brand-tag">DVF</span></div></div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 7: CREAMY YELLOW ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">7</span>
+            <h2 style="display: inline-block; margin: 0;">Creamy Yellow</h2>
+        </div>
+        <p>Vanilla Yellow & Popcorn Yellow — new neutrals. Forecast: <span class="stat-highlight">+22% women EU</span> (both shades), Vanilla Yellow Dresses +23% EU women. Men’s steady growth: Popcorn Yellow +10%, Vanilla +7% across Europe.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743179/IMG_9616_ek9f51.webp" alt="Vanilla yellow dress and activewear"><div class="img-caption">1. H&M / 2. ARAKII / 3-4. HEURITECH — bridal to activewear</div></div></div>
+            <div><p>These buttery tones feel fresh on college-style sweaters, short-sleeve shirts, and even bridesmaids dresses. Versatile, soft, and universally flattering.</p><div class="flex-inline-stats"><span class="stat-badge">✨ Dresses +23% (EU)</span><span class="stat-badge">🍿 Popcorn Yellow men +10%</span></div></div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 8: RUFFLES & BUBBLE-HEM ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">8</span>
+            <h2 style="display: inline-block; margin: 0;">Ruffles & Bubble-Hem</h2>
+        </div>
+        <p>Tiered ruffle skirts +20% EU / +17% US. Draped skirts, bounce bubble hems appear on skirts and sarouel pants. Optical white skirts (+14%) and low-waist styles (+17%) gain momentum. Playful volume meets airy spring aesthetic.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700&auto=format" alt="Ruffle tiered skirt and bubble hem"><div class="img-caption">Tiered ruffles + low-waist — movement and lightness</div></div></div>
+            <div><p>The bubble hem trend expands beyond skirts to pants, creating sculptural silhouettes. White and pastel shades emphasize ethereal spring layering.</p><div class="stat-badge">🎀 Bounce bubble hems + dramatic volume</div></div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 9: PURPLE HUES ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">9</span>
+            <h2 style="display: inline-block; margin: 0;">Purple Hues</h2>
+        </div>
+        <p>From burgundy-plum to luminous lilac — spiritual, elegant, expressive. Womenswear: Plum & Muted Berry +10% EU; Mauve (+2%) and Sangria Purple (+5%) in US. Menswear: Eggplant +7% EU, Vivid Purple +5%.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://images.unsplash.com/photo-1563906267088-b029e7101114?w=700&auto=format" alt="Purple hues fashion"><div class="img-caption">Ramadan celebrations, Paris runways, NY streets — individuality through violet</div></div></div>
+          <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777745011/IMG_9621_bzue6i.webp" alt="Purple hues fashion"><div class="img-caption"></div></div></div>
+            <div><p>Purple signals emotional expression and individuality. Designers incorporate it from suiting to dreamy dresses. A colour that bridges streetwear and evening elegance.</p><div class="brand-list"><span class="brand-tag">Spiritual depth</span><span class="brand-tag">vibrant accents</span></div></div>
+        </div>
+    </div>
+
+    <!-- ================= TREND 10: THE NEW RAW ================= -->
+    <div class="trend-block">
+        <div class="trend-title">
+            <span class="trend-number">10</span>
+            <h2 style="display: inline-block; margin: 0;">The New Raw</h2>
+        </div>
+        <p>Practical minimalism meets city mobility — sustainable, raw-functionality. Green hues: Pea Green (+13%), Pickled Green (+6%), Dusty Green (+4%). Opaque Rainproof +12% EU (women) & +6% US. Thong Sandals explode: +49% women EU, +11% US.</p>
+        <div class="grid-2cols">
+            <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743179/IMG_9617_ooe0p2.webp" alt="Rainproof minimalist windbreaker"><div class="img-caption">1. Pantone 2. Instagram 3. Pantone 4. Instagram — monochrome windbreakers + palazzo pants / cycling shorts</div></div></div>
+          <div><div class="image-card"><img src="https://res.cloudinary.com/ddlc9pfgn/image/upload/v1777743179/IMG_9618_bwr1em.webp" alt="Rainproof minimalist windbreaker"><div class="img-caption">1. YIGAL AZROUËL / 2. KENT & CURWEN / 3. AUGUST BARRON / 4. BOTTEGA VENETA</div></div></div>
+            <div><p>Cycling-inspired urban wardrobe: funnel-neck windbreakers, mini cycling shorts (+16%), tube socks, yellow-green sneakers (+20%). Long-lasting, multi-purpose pieces with nature-infused palettes.</p>
+            <div class="stat-badge">🚴‍♀️ Palazzo pants +37% | Balloon draped hems</div>
+            <div class="stat-badge">🌿 Thong sandals EU women +49%</div>
+            </div>
+        </div>
+        <div style="background: #f5f1ea; border-radius: 24px; padding: 1.5rem; margin-top: 1rem;">
+            <p><strong>Urban living, elevated.</strong> The New Raw unites smart outdoor layers, timeless basics, and green-kissed yellow tones. Invest in quality, transitional pieces that reflect eco-conscious, cyclist-friendly city style.</p>
+        </div>
+    </div>
+
+    <!-- Additional runway & AI section (page 11) -->
+    <div class="callout" style="margin-top: 2rem; background: #eae7e0;">
+        <div class="section-subhead"><i class="fas fa-chart-line"></i> Arisha INSIGHTS</div>
+        <h3 style="margin: 0 0 0.5rem 0;">Stay Ahead of 2026 Fashion Trends with AI-Powered Intelligence</h3>
+        <p>From PFW runways to Shanghai streets, Arisha analyses millions of consumer signals in real-time. Designers like Chanel, Prada, Dior, Bottega Veneta inspire — but our AI translates creative visions into commercial success. Whether you are planning next summer's collection or fine-tuning inventory, predictive analytics empowers confident decisions. Reduce unsold stock, invest in the silhouettes and prints that our AI forecasts will dominate consumer attention. <strong>Data + intuition = the new fashion edge.</strong></p>
+        <div class="brand-list" style="margin-top: 1rem;">
+            <span class="brand-tag">Chanel</span><span class="brand-tag">Prada</span><span class="brand-tag">Dior</span><span class="brand-tag">Bottega Veneta</span><span class="brand-tag">Miu Miu</span><span class="brand-tag">Loewe</span><span class="brand-tag">Fendi</span><span class="brand-tag">Versace</span><span class="brand-tag">Tory Burch</span>
+        </div>
+    </div>
+
+    <!-- Final trend calendar mention + gallery signature -->
+    <hr>
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <div><i class="fas fa-chart-simple" style="color: #b48c48;"></i> <strong>AMF Trend Calendar 2026</strong><br>month-by-month breakdown of key movements</div>
+        <div><i class="fas fa-arrows-spin"></i> Real-time AI + fashion expertise</div>
+        <div><i class="fas fa-globe"></i> Global data from US, EU, APAC</div>
+    </div>
+    <div class="image-card" style="max-width: 300px; margin: 0 auto 2rem;">
+        <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&auto=format" alt="Fashion forecast mood">
+        <div class="img-caption">SS26: from brut denim to creamy yellow – the future of style</div>
+    </div>
+    <div style="text-align: center; padding: 1rem 0; font-size: 0.75rem; color: #777; border-top: 1px solid #e4ddd2;">
+        Trend predictions based on Arisha data, SS26 runway analysis, and consumer social intelligence. All statistics reflect forecasted year-over-year visibility changes.
+    </div>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <p style="font-family: 'Playfair Display';">AMF·AI-Powered Fashion Forecasting</p>
+        <p style="font-size: 0.8rem; margin-top: 8px;">©AMF2026 — Real-time insights. Runway to retail intelligence.</p>
+        <p style="font-size: 0.7rem; margin-top: 12px;"><i class="fas fa-chart-line"></i> Data-driven trends for Spring/Summer 2026 | #SS26Fashion</p>
+    </div>
+</footer>
+
+<script>
+    function updateDateTime() {
+        const now = new Date();
+        const options = { 
+            weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+            hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true 
+        };
+        const formatted = now.toLocaleString('en-IN', options);
+        document.getElementById('dateTimeText').innerText = formatted;
+    }
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+</script>
+</body>
+</html>
